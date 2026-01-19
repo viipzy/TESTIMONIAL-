@@ -1,0 +1,149 @@
+$Purple-50: hsl(260, 100%, 95%);
+$Purple-300: hsl(264, 82%, 80%);
+$Purple-500: hsl(263, 55%, 52%);
+$White: hsl(0, 0%, 100%);
+$Grey-100: hsl(214, 17%, 92%);
+$Grey-200: hsl(0, 0%, 81%);
+$Grey-400: hsl(224, 10%, 45%);
+$Grey-500: hsl(217, 19%, 35%);
+$Dark-blue: hsl(219, 29%, 14%);
+$Black: hsl(0, 0%, 7%);
+
+
+body{
+    margin:0px;
+    padding:20px;
+    font-family:"Barlow Semi Condensed";
+    font-weight: 500;
+    color:$White;
+}
+
+main{
+    
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr;
+}
+
+.main{
+    /* border: 2px solid red; */
+    padding:30px;
+    display:grid;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+    margin: auto
+}
+
+.main{
+    background-color: $Purple-500;
+    margin: auto;
+    overflow:hidden;
+
+    & .profile-section{
+        display:grid;
+        grid-template-columns: 65px 1fr;
+        padding:0;
+        margin: 0;
+
+
+
+        & .image{
+            border: 2px solid $Grey-200;
+            margin:0;
+            padding:0;
+            border-radius: 100px;
+            object-fit: cover;
+            align-items: center;
+            display: flex;
+            width: 50px;
+            height:50px;
+            overflow:hidden;        
+        }
+    }
+
+    & .profile-details{
+        margin:6px auto;
+        width:200px;
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    
+        
+
+        & h2{
+            margin:0;
+            padding:0;
+            font-size: 20px;
+        }
+
+        & p{
+            margin:0;
+            padding:0;
+            font-size: 16px;
+            color: $Purple-50;
+        }
+    }
+
+    & .details{
+        font-size:25px;
+        margin:10px auto;
+        padding:0;
+        
+    }
+
+    & p{
+        font-size: 14.4px;
+        line-height: 20px;
+    }
+}
+
+#second{
+    background-color: $Grey-500;
+}
+
+#third{
+    background-color: $White;
+    color: $Grey-500;
+    box-shadow: 0px 0.5px 10px rgba(129, 128, 128, 0.2);
+
+    & .profile-details{
+        & p{
+            margin:0;
+            padding:0;
+            font-size: 16px;
+            color: $Grey-400;
+        }
+    }
+
+}
+
+#fourth{
+    background-color: $Dark-blue;
+}
+
+#fifth{
+    background-color: $White;
+    color: $Grey-500;
+    box-shadow: 0px 0.5px 10px rgba(129, 128, 128, 0.2);
+
+    & .profile-details{
+        & p{
+            margin:0;
+            padding:0;
+            font-size: 16px;
+            color: $Grey-400;
+        }
+    }
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 20px;
+    color: $Dark-blue;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

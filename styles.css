@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  padding: 20px;
+  font-family: "Barlow Semi Condensed";
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+.main {
+  /* border: 2px solid red; */
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.main {
+  background-color: hsl(263, 55%, 52%);
+  margin: auto;
+  overflow: hidden;
+}
+.main .profile-section {
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  padding: 0;
+  margin: 0;
+}
+.main .profile-section .image {
+  border: 2px solid hsl(0, 0%, 81%);
+  margin: 0;
+  padding: 0;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.main .profile-details {
+  margin: 6px auto;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+.main .profile-details h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.main .profile-details p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: hsl(260, 100%, 95%);
+}
+.main .details {
+  font-size: 25px;
+  margin: 10px auto;
+  padding: 0;
+}
+.main p {
+  font-size: 14.4px;
+  line-height: 20px;
+}
+
+#second {
+  background-color: hsl(217, 19%, 35%);
+}
+
+#third {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+  box-shadow: 0px 0.5px 10px rgba(129, 128, 128, 0.2);
+}
+#third .profile-details p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: hsl(224, 10%, 45%);
+}
+
+#fourth {
+  background-color: hsl(219, 29%, 14%);
+}
+
+#fifth {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+  box-shadow: 0px 0.5px 10px rgba(129, 128, 128, 0.2);
+}
+#fifth .profile-details p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: hsl(224, 10%, 45%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  color: hsl(219, 29%, 14%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
